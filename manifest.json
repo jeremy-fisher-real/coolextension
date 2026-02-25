@@ -1,7 +1,7 @@
 {
 	"name": "Colour picker extension", 
 	"description": "This exists for no reason whatsoever", 
-	"version": "1.1", 
+	"version": "1.02", 
 	"manifest_version": 3, 
 	"action": {
 		"default_popup": "index.html", 

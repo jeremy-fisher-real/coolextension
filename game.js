@@ -8,6 +8,7 @@ const blueInput = document.getElementById(`blueInput`)
 
 function changeColour() {
     sliderbox.style.backgroundColor = `rgb(`+redSlider.value+`, `+greenSlider.value+`, `+blueSlider.value+`)`
+	sliderbox.style.borderColor = `rgb(`+(255-redSlider.value)+`, `+(255-greenSlider.value)+`, `+(255-blueSlider.value)+`)`
 }
 
 function update() {
@@ -21,3 +22,5 @@ function update() {
 redSlider.addEventListener("change", update)
 greenSlider.addEventListener("change", update)
 blueSlider.addEventListener("change", update)
+
+update()

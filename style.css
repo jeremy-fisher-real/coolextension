@@ -4,11 +4,14 @@ body {
 }
 
 #box {
+	margin: 0;
 	position: relative;
 	background-color: red;
-	width: 175px;
-	height: 100px;
+	width: 170px;
+	height: 95px;
 	top: 35px;
+	border: black;
+	border-style: solid;
 }
 
 .slider {
